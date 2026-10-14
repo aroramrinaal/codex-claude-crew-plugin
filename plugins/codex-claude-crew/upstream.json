@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/aroramrinaal/codex-claude-crew",
+  "commit": "4c62197451070d76116b83a0bbddc52a84039e64",
+  "files": {
+    "skills/codex-claude-crew/SKILL.md": {
+      "source": "skills/codex-claude-crew/SKILL.md",
+      "sha256": "a0023c85bdd7a2f60b14644580bfbbb2ac39ff2e62fc0ed8e8a59871cb41415e"
+    },
+    "skills/codex-claude-crew/agents/openai.yaml": {
+      "source": "skills/codex-claude-crew/agents/openai.yaml",
+      "sha256": "55ffd662bfe6451fef25aa41efc7ac43c823c30cbdd057a17e2a6bf2e84d04b5"
+    },
+    "skills/codex-claude-crew/scripts/relay.py": {
+      "source": "skills/codex-claude-crew/scripts/relay.py",
+      "sha256": "7e26100b58c03d10fb60caeef709aa894a2612fad8b6c7bd50211c3ceff196ff"
+    },
+    "skills/codex-claude-crew/references/task-contract.md": {
+      "source": "skills/codex-claude-crew/references/task-contract.md",
+      "sha256": "19508975dbc0181f9ec824321826523c7a2d31736b2a911d3e6dbbf147d1f304"
+    },
+    "skills/codex-claude-crew/assets/icon-small.png": {
+      "source": "skills/codex-claude-crew/assets/icon-small.png",
+      "sha256": "0bc096df2c6a04e988962c72f841e4dbdbc57f12149871b942c68c61162dd5cd"
+    },
+    "skills/codex-claude-crew/assets/icon-large.png": {
+      "source": "skills/codex-claude-crew/assets/icon-large.png",
+      "sha256": "db2bf6314da85047b94dbf51379b0aa8a21bba03c44348e6bf943838ae11d378"
+    },
+    "LICENSE": {
+      "source": "LICENSE",
+      "sha256": "c856a5458f6e8889a80e108751a50265dda413181fed2e874c25da033bf844a7"
+    },
+    "assets/composer-icon.png": {
+      "source": "skills/codex-claude-crew/assets/icon-small.png",
+      "sha256": "0bc096df2c6a04e988962c72f841e4dbdbc57f12149871b942c68c61162dd5cd"
+    },
+    "assets/logo.png": {
+      "source": "skills/codex-claude-crew/assets/icon-large.png",
+      "sha256": "db2bf6314da85047b94dbf51379b0aa8a21bba03c44348e6bf943838ae11d378"
+    }
+  }
+}

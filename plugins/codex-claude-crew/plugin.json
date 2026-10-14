@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-claude-crew",
+  "version": "0.1.0",
+  "description": "Delegate bounded reviews and implementation tasks to local Claude Code, then independently verify the results in Codex.",
+  "author": {
+    "name": "aroramrinaal",
+    "url": "https://github.com/aroramrinaal"
+  },
+  "homepage": "https://github.com/aroramrinaal/codex-claude-crew-plugin",
+  "license": "MIT",
+  "keywords": ["codex", "claude-code", "code-review", "delegation", "worktrees"],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "Codex Claude Crew",
+        "shortDescription": "Delegate to Claude Code and verify the results",
+        "longDescription": "Give local Claude Code a bounded review or implementation task while Codex scopes the work and independently checks its findings and changes. Includes guided setup, isolated implementation worktrees, background runs, resume, cancellation, and verification records. Requires macOS or Linux, Python 3.9+, Git, ps, and an authenticated Claude Code CLI 2.1.259+ with the required execution flags. Independent community plugin; not affiliated with OpenAI or Anthropic.",
+        "developerName": "aroramrinaal",
+        "category": "Developer Tools",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/aroramrinaal/codex-claude-crew-plugin",
+        "defaultPrompt": [
+          "Set up Codex Claude Crew and check my local prerequisites.",
+          "Use Codex Claude Crew to have Claude review my current changes, then verify its findings.",
+          "Use Codex Claude Crew to delegate a focused implementation in a separate worktree and verify the result."
+        ],
+        "brandColor": "#2463EB",
+        "composerIcon": "./assets/composer-icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
